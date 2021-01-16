@@ -1,0 +1,127 @@
+﻿<Window x:Class="PR48_2018_Aleksa_Slovic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR48_2018_Aleksa_Slovic"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStartupLocation="CenterScreen" Closing="save" MouseLeftButtonDown="Window_MouseLeftButtonDown" WindowStyle="None" AllowsTransparency="True" Background="Transparent" SizeToContent="WidthAndHeight" Height="527" Width="729">
+
+
+    <Canvas Height="530" Width="741">
+        <Path Stroke="Black" StrokeThickness="1" Height="524.5" Stretch="Fill" Width="726">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF323433"/>
+                    <GradientStop Color="#FF78787A" Offset="1"/>
+                    <GradientStop Color="#FF383838" Offset="0.329"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="30,0">
+                        <LineSegment Point="0,30"/>
+                        <LineSegment Point="0,370"/>
+                        <LineSegment Point="30,400"/>
+                        <LineSegment Point="570,400"/>
+                        <LineSegment Point="600,370"/>
+                        <LineSegment Point="600,30"/>
+                        <LineSegment Point="570,0"/>
+                        <LineSegment Point="30,0"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Button Visibility="Collapsed" Name="izlaz"  Content="IZLAZ" Canvas.Left="396" Canvas.Top="453" Width="290" Height="49" Click="Button_Click" Background="#FFB8B8B8" BorderBrush="Black" BorderThickness="2" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontStyle="Italic" FontSize="18" />
+        <Button Visibility="Collapsed" Name="dodaj"  Content="DODAJ CLANAK" Canvas.Left="28" Canvas.Top="453" Width="290" Height="49" Background="#FFB8B8B8" BorderBrush="Black" BorderThickness="2" Click="dodaj_Click" FontWeight="Bold" FontStyle="Italic" FontSize="18"/>
+        <Image x:Name="slika1" Visibility="Collapsed" Height="204" Canvas.Left="28" Canvas.Top="24" Width="658" Source="Slike/pozadina2.png" Stretch="Fill"/>
+        <DataGrid Visibility="Collapsed" Name="dataGridClanci" ItemsSource="{Binding Automobili_lista}" IsReadOnly="True" SelectionMode="Single" AutoGenerateColumns="False" Height="220" Width="658" Canvas.Left="28" Canvas.Top="233">
+            <DataGrid.Background>
+                <ImageBrush ImageSource="Slike/pozadina1.png" Stretch="UniformToFill" Opacity="0.15"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+
+
+                <DataGridTemplateColumn Header="Slika" Width="70"  IsReadOnly="True" >
+
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding SlikaAuta}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Naslov" Binding="{Binding Naslov}" Width="70">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Model" Binding="{Binding Model}" Width="70">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Datum" Binding="{Binding Datum,StringFormat={}{0:dd/MM/yyyy}}" Width="70">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Cena($)" Binding="{Binding Cena}" Width="70">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTemplateColumn Header="Editovanje" Width="*"   >
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <Button Name="Button1" Content="PROČITAJ" BorderBrush="{x:Null}"  FontFamily="Consolas" FontWeight="Bold"   Foreground="#FF555555" Background="#FFEEEEEE" Click="PrikaziAuto" />
+                                <Button Name="Button2" Content="IZMENI"  BorderBrush="{x:Null}"  FontFamily="Consolas" FontWeight="Bold"   Foreground="#FF555555" Background="#FFEEEEEE" Click="IzmeniAuto" />
+                                <Button Name="Button3" Content="OBRIŠI"  BorderBrush="{x:Null}"  FontFamily="Consolas" FontWeight="Bold"   Foreground="#FF555555" Background="#FFEEEEEE"   Click="ObrisiAuto"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <MediaElement Visibility="Visible" x:Name="uvod" Height="530" Width="741" UnloadedBehavior="Manual" MediaEnded="MediaElement_MediaEnded" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
+
+    </Canvas>
+</Window>

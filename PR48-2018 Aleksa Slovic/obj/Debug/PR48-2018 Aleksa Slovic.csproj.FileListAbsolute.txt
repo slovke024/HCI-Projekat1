@@ -1,0 +1,23 @@
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\bin\Debug\PR48-2018 Aleksa Slovic.exe.config
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\bin\Debug\PR48-2018 Aleksa Slovic.exe
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\bin\Debug\PR48-2018 Aleksa Slovic.pdb
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic.csprojAssemblyReference.cache
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\MainWindow.g.cs
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\App.g.cs
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic_MarkupCompile.cache
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic_MarkupCompile.lref
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\MainWindow.baml
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic.g.resources
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48_2018_Aleksa_Slovic.Properties.Resources.resources
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic.csproj.GenerateResource.cache
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic.exe
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic.pdb
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\DodajClanak.g.cs
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\DodajClanak.baml
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\bin\Debug\Klase.dll
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\bin\Debug\Klase.pdb
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\PR48-2018 Aleksa Slovic.csproj.CopyComplete
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\Izmeni.g.cs
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\Prikazi.g.cs
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\Izmeni.baml
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\PR48-2018 Aleksa Slovic\obj\Debug\Prikazi.baml

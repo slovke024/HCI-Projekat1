@@ -1,0 +1,8 @@
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\obj\Debug\netstandard2.0\Klase.csprojAssemblyReference.cache
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\obj\Debug\netstandard2.0\Klase.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\obj\Debug\netstandard2.0\Klase.AssemblyInfo.cs
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\bin\Debug\netstandard2.0\Klase.deps.json
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\bin\Debug\netstandard2.0\Klase.dll
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\bin\Debug\netstandard2.0\Klase.pdb
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\obj\Debug\netstandard2.0\Klase.dll
+C:\Users\Win7\Desktop\HCI\Predmetni projekat PR48-2018\PR48-2018 Aleksa Slovic\Klase\obj\Debug\netstandard2.0\Klase.pdb
